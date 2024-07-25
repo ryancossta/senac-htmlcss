@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+ h3{
+    color:green;
+ }
+
+ ul{
+     border:1px solid blue;
+     padding: 10px;
+ }
+
+ li{
+    color:darkblue;
+ }
+ /* Classe */
+ .Paragrafo{
+     background-color: #000000;
+     color: yellow;
+     padding: 5px;
+   
+ }
+
+ /* id */
+ #titulo-com-id{
+    background-color: green;
+    color:#ffffff;
+    padding: 10px;
+    font-size: 40px;
+ }
+
+ /* Regra de ordem */
+
+ h1{
+    border-bottom: 2px solid blue;
+ }
+
+ .class-titulo{
+    border-bottom:3px solid red ;
+ }
+
+ #id-titulo{
+    border-bottom: 3px solid black;
+ }
+/* nome das corwes  */
+.color-name{
+    color:crimson;
+}
+
+/* cores RGB */
+.rgb{
+    color: #(255, 0, 0, )
+}
+.rgb-misturado{
+    color: rgb(199, 21, 47)
+}
+
+.rgba{
+    color:rgba(100, 99, 45, 0.3)
+}
+
+/* hexadecimal */
+.hex{
+    color:#55a398;
+}
+    .hex-simplificado{
+    color: #a6e;
+    }
+
+/* hsl */
+     .hsl{
+   color:hsl(100, 20%, 50%)
+}
+
+/* backgroundcolor */
+
+.backgroundcolor{
+    background-color: #000;
+    color: gold;
+}
+
+.bg-2{
+     background-color: rgb(100, 50, 33);
+     color: #0fa;
+}
+
+/* opacidade no background color */
+.bg-com-opacidade{
+    background-color: red;
+    opacity: 0.2;
+}
+/* Resolvendo o erro da opacidade na cor da letra */
+.bg-com-opacidade-2{
+    background-color:rgba(90, 100, 40, 0.2);
+    color:#000;
+}
+
+/* background image */
+.bgimage{
+    background-image: url(../img/masp-sp.jpg);
+    color: white;
+    padding: 10px;
+}
+
+/* centralizar background image */
+/* aqui estou aplicando regra de estilo
+ para dois elementos de uma só vez */
+
+.bgimg-naocentral, .bgimg-central{
+       background-image: url(../img/senac-educa.jpg) ;
+       height: 400px;
+       width: 400px;
+     }
+
+;bgimg-central{
+       background-position: center;
+       background-size: cover ;
+}    
+
+/* altura e largura */
+.altura-largura{
+    height: 500px;
+    width: 500px;
+    background-color: blueviolet;
+}
+
+.altura-largura-nova{
+ height: 200px;
+background-color: #999;
+}
+
+/* padding */
+.sem-padding{
+    background-color: aqua;
+    padding: none;
+    width: 200px;
+    height: 200px;
+}
+
+.com-padding{
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+}
+
+/* padding por lados */
+.padding-lados{
+    background-color: crimson;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 150px;
+    padding-right: 5px;
+    padding-bottom: 40px
+}
+
+/* shorthand padding */
+.shorthand-padding{
+    background-color: #333;
+    padding: 6px 12px 18px 2px;
+}
+
+.shorthand-padding-2{
+    background-color: #555;
+    padding: 10px 20px;  
+}
+
+
+/* border */
+.border{
+    border: 5px solid blue;
+    padding: 10px;
+
+}
+
+.border-2{
+    border: 2px dotted #785;
+    padding: 25px;
+}
+
+/* borda individual por lados */
+.borda-esquerda{
+    background-color: #111;
+    color: #fff;
+    padding: 25px;
+    border-left: 3px solid yellowgreen;
+}
+
+.borda-inferior{
+    background-color: #111;
+color: #fff;
+padding: 25px;
+border-bottom: 7px double #548;
+}
+
+    .borda-direita{
+background-color: cornflowerblue;
+color: pink;
+padding: 10px;
+border-right: 2px dashed pink;
+    }
+
+.borda-superior{
+background-color: aquamarine;
+color: #808080;
+padding: 10px;
+border-top: 10px dotted red;
+}
+
+/* borda diferente em todo os lados ao mesmo tempo */
+.borda-total{
+background-color: #000;
+color: white;
+padding: 25px;
+border-top: 5px dotted salmon;
+border-right: 5px solid yellow;
+border-bottom: 5px dashed orange;
+border-left: 5px double rosybrown;
+}
+
+/* borda arredondada */
+.paragrafo-arredondado{
+    background-color: burlywood;
+color: white;
+padding: 20px;
+border: 5px solid red;
+border-radius: 20px;
+}
+
+.paragrafo-arredondado-2{
+background-color: #000;
+color: white;
+padding: 20px;
+border-radius: 20px;
+}
+
+/* margem */
+.margem{
+background-color: darkblue;
+color: yellow;
+margin: 10px;
+
+}
+
+.margem-no-topo{
+background-color: dodgerblue;
+padding: 10px;
+margin-top: 70px;
+}
+
+.margem-diferenciada{
+background-color: cornflowerblue;
+margin: 7px 10px 9px 30px;
+
+}
+
+/* alinhamento de texto */
+.alinhamento-direita{
+    text-align: right;
+}
+
+.centralizar-container{
+border: 4px solid salmon;
+width: 200px;
+text-align: center;
+}
+
+/* decoração de texto */
+.underline{
+    text-decoration: underline;
+}
+.line-through{
+    text-decoration: line-through;
+}
+.overline{
+    text-decoration: overline;
+    color: chocolate;
+}
+.remove-underline{
+    color: orange;
+    text-decoration: none;
+}
+
+/* fontes */
+.fonte-serif{
+    font-family: serif;
+}
+
+.fonte-sans-serif{
+    font-family: sans-serif;
+}
+
+.fonte-monospace{
+    font-family: monospace;
+}
+
+.fonte-cursive{
+    font-family: cursive;
+}
+
+.font-fantasy{
+    font-family: fantasy;
+}
+
+.outra-fonte{
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* o link da fonte importada vai sempre no topo do arquivo CSS */
+    .trazer-fonte{
+        font-family: "croissant one";
+    }
+
+/* estilo de fonte */
+.italica{
+    font-style: italic;
+}
+
+/* espessura da fonte */
+.bold{
+    font-weight: weight 500px;
+
+}
+
+/* tamanho da fonte */
+.tamanho-150px{
+    font-size: 150px;
+}
+
+.xx-small{
+    font-size: xx-small;
+}
